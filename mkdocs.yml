@@ -1,1 +1,40 @@
 site_name: MkDocs Workshop
+repo_url: https://github.com/xiyaozhuang/mkdocs-workshop
+repo_name: mkdocs-workshop
+
+nav:
+  - index.md
+  - example.md
+
+theme:
+  name: material
+  palette:
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      toggle:
+        icon: material/brightness-7
+        name: Switch to dark mod
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      toggle:
+        icon: material/brightness-4
+        name: Switch to light mode
+  features:
+    - navigation.tabs
+    - navigation.sections
+    - navigation.indexes
+    - navigation.top
+    - navigation.footer
+    - search.suggest
+    - search.highlight
+
+extra:
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/xiyaozhuang
+
+markdown_extensions:
+  - attr_list
+  - pymdownx.emoji:
+      emoji_index: !!python/name:materialx.emoji.twemoji
+      emoji_generator: !!python/name:materialx.emoji.to_svg
