@@ -37,7 +37,7 @@ hide:
 
 1. Commit and push changes.
 
-2. Build and deploy static site files using the `mkdocs gh-pages` command.
+2. Build and deploy static site files using the `mkdocs gh-deploy` command.
 
 That's it! Your project will be built and pushed to a new branch `gh-pages` and a GitHub Action will start which you can view in your GitHub repository.
 
